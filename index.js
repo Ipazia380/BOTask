@@ -4,7 +4,7 @@ const client = new Client({
 });
 
 // Ricorda di sostituire questo con il tuo token reale
-client.login("MTIwODE3MDE5MjY2OTExODU5Ng.G8XR2D.puQrfPxas2IXbNBCcuwDNghemE-hSR2_nhlYVE")
+client.login("process.env.token")
 
 let tasks = []; // Array per memorizzare le task
 
